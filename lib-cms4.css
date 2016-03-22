@@ -6,3 +6,6 @@
 }
 .hide-accessible { position: absolute !important; clip: rect(1px, 1px, 1px, 1px); }
 #cms-copyright, #cms-footer { color: #d4d4d4; } /* Accessibility */
+
+/* Hide the WebPAC Pro footer */
+body > span:last-child { display: none !important; }
